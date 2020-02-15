@@ -27,6 +27,8 @@ int RunningProcesses();
 std::string OperatingSystem();
 std::string Kernel();
 
+std::string extract_match(const std::string& directory,
+                          const std::string& to_match);
 // CPU
 enum CPUStates {
   kUser_ = 0,
